@@ -351,7 +351,7 @@ if(isset($_POST["m_submit"])){
             while($runservice = mysqli_fetch_array($service)){
             echo "<div class='row timeline-element ".$runservice['service_position']." separline'>
                 <span class='iconsBackground' >
-                    <img src='assets/images/logo3.svg' class='mbr-iconfont'>
+                    <img src='assets/images/Logo3.svg' class='mbr-iconfont'>
                 </span>
                 <div class='col-xs-12 col-md-6 align-left'>
                     <div class='timeline-text-content boxbordershadow'>

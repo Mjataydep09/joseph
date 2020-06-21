@@ -373,7 +373,7 @@ if(isset($_POST["m_submit"])){
         <div class="row" style="position:relative;overflow:hidden;" >
             <div class="col-md-12 aboutcontainer"  id="slider1-b">
                 <h2 class="align-center mbr-fonts-style display-2 marginbottomstyle1">ABOUT US</h2>
-                <?php require('profile.svg'); ?>
+                <?php include('profile.svg'); ?>
             </div>
             <div class="col-md-12 aboutcontainer collapse"  id="pilos1">
               <h2 class="align-center mbr-fonts-style display-2 marginbottomstyle">Philosophy</h2>

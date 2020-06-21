@@ -1,0 +1,43 @@
+
+.cid-rZU096inCz {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #ffffff;
+  }
+  .cid-rZU096inCz .mbr-section-subtitle {
+    color: #767676;
+  }
+  .cid-rZU096inCz .media-row {
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+  }
+  .cid-rZU096inCz .team-item {
+    transition: all .2s;
+    margin-bottom: 2rem;
+  }
+  .cid-rZU096inCz .team-item .item-image img {
+    width: 100%;
+  }
+  .cid-rZU096inCz .team-item .item-name p {
+    margin-bottom: 0;
+  }
+  .cid-rZU096inCz .team-item .item-role p {
+    margin-bottom: 0;
+  }
+  .cid-rZU096inCz .team-item .item-social {
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    -webkit-justify-content: center;
+  }
+  .cid-rZU096inCz .team-item .item-social .socicon {
+    color: #232323;
+    font-size: 17px;
+  }
+  .cid-rZU096inCz .team-item .item-caption {
+    background: #efefef;
+  }
+
+  

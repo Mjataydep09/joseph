@@ -1,19 +1,7 @@
 <!doctype html>
 <?php
 session_start();
-require_once 'php/dbconnect.php';
 
-if(isset($_POST["m_submit"])){
-  $m_firstname = $_POST['m_firstname'];
-  $m_lastname = $_POST['m_lastname'];
-  $m_email = $_POST['m_email'];
-  $m_phone  = $_POST['m_phone'];
-  $m_company = $_POST['m_company'];
-  $m_message = $_POST['m_message'];
-  if(mysqli_query($conn,"INSERT INTO messages(m_firstname,m_lastname,m_email,m_phone,m_company,m_message) VALUES ('$m_firstname','$m_lastname','$m_email','$m_phone','$m_company','$m_message')")){
-    echo "Success Message";
-  }
-}
 ?>
 <html lang="en">
 <head>
